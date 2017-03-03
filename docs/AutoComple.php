@@ -3,9 +3,11 @@
 namespace plugins\wechatGroup\docs
 
 {
+    use Miaoxing\WechatGroup\Service\WechatGroup;
+
     /**
-     * @method      \Miaoxing\WechatGroup\Service\WechatGroup|\Miaoxing\WechatGroup\Service\WechatGroup[] wechatGroup() 微信分组
-     * @property    \Miaoxing\WechatGroup\Service\WechatGroup $wechatGroup
+     * @method      WechatGroup|WechatGroup[] wechatGroup() 微信分组
+     * @property    WechatGroup $wechatGroup
      */
     class AutoComplete
     {
