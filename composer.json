@@ -1,0 +1,23 @@
+{
+  "name": "miaoxing/wechat-group",
+  "description": "Miaoxing Wechat Group Plugin",
+  "keywords": [
+    "miaoxing", "wechat", "group"
+  ],
+  "license": "MIT",
+  "require": {
+    "miaoxing/app": "dev-master@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Miaoxing\\WechatGroup\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MiaoxingTest\\WechatGroup\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
