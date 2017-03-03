@@ -1,6 +1,7 @@
 <?php
 
 namespace plugins\wechatGroup\docs
+
 {
     /**
      * @method      \Miaoxing\WechatGroup\Service\WechatGroup|\Miaoxing\WechatGroup\Service\WechatGroup[] wechatGroup() 微信分组
@@ -12,6 +13,7 @@ namespace plugins\wechatGroup\docs
 }
 
 namespace {
+
     /**
      * @return \plugins\wechatGroup\docs\AutoComplete
      */

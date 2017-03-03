@@ -10,7 +10,7 @@ class WechatGroup extends \miaoxing\plugin\BaseService
     {
         $counts = [
             'created' => 0,
-            'updated' => 0
+            'updated' => 0,
         ];
 
         $account = wei()->wechatAccount->getCurrentAccount();
@@ -51,8 +51,8 @@ class WechatGroup extends \miaoxing\plugin\BaseService
     {
         return [
             'group' => [
-                'name' => $group['name']
-            ]
+                'name' => $group['name'],
+            ],
         ];
     }
 
@@ -61,8 +61,8 @@ class WechatGroup extends \miaoxing\plugin\BaseService
         return [
             'group' => [
                 'id' => $group['wechatId'],
-                'name' => $group['name']
-            ]
+                'name' => $group['name'],
+            ],
         ];
     }
 }

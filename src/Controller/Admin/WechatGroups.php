@@ -18,6 +18,7 @@ class WechatGroups extends \miaoxing\plugin\BaseController
     public function syncFromWechatAction($req)
     {
         $ret = wei()->wechatGroup->syncFromWechat();
+
         return $this->ret($ret);
     }
 }
