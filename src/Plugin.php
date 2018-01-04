@@ -7,7 +7,7 @@ use Miaoxing\Plugin\Service\User;
 use Miaoxing\Wechat\Service\WechatAccount;
 use Wei\WeChatApp;
 
-class Plugin extends \miaoxing\plugin\BasePlugin
+class Plugin extends \Miaoxing\Plugin\BasePlugin
 {
     protected $name = '微信分组';
 
