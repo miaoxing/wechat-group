@@ -2,7 +2,7 @@
 
 namespace Miaoxing\WechatGroup\Controller\Admin;
 
-class WechatGroups extends \miaoxing\plugin\BaseController
+class WechatGroups extends \Miaoxing\Plugin\BaseController
 {
     protected $controllerName = '微信分组管理';
 
