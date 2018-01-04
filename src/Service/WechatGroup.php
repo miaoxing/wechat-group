@@ -4,7 +4,7 @@ namespace Miaoxing\WechatGroup\Service;
 
 use Miaoxing\Plugin\Service\Group;
 
-class WechatGroup extends \miaoxing\plugin\BaseService
+class WechatGroup extends \Miaoxing\Plugin\BaseService
 {
     public function syncFromWechat()
     {
