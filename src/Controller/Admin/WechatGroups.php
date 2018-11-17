@@ -10,15 +10,10 @@ class WechatGroups extends \Miaoxing\Plugin\BaseController
         'syncFromWechat' => '同步',
     ];
 
-    /**
-     * 同步微信分组
-     * @param $req
-     * @return \Wei\Response
-     */
-    public function syncFromWechatAction($req)
+    public function syncFromWechatAction()
     {
         $ret = wei()->wechatGroup->syncFromWechat();
 
-        return $this->ret($ret);
+        return $ret;
     }
 }
