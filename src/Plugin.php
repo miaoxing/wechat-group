@@ -51,7 +51,7 @@ class Plugin extends \Miaoxing\Plugin\BasePlugin
         $account = wei()->wechatAccount->getCurrentAccount();
         $api = $account->createApiService();
 
-        $users = wei()->user()->where(['id' => $userIds])->findAll();
+        $users = wei()->user()->where(['id' => $userIds, 'isValid' => true])->findAll();
         $openIds = array_filter(wei()->coll->column($users->toArray(), 'wechatOpenId'));
         $openIds = array_values($openIds); // 重置键值
 
